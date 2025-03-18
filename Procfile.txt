@@ -1,0 +1,1 @@
+web: gunicorn backend.py:app = FastAPI() --workers 4 --worker-class uvicorn.workers.UvicornWorker
